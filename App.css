@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.App .input_field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.App .input_field input {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25px;
+  background-color: rgba(180, 181, 238, 0.555);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  text-align: center;
+  border: none;
+  border-radius: 5px 5px 10px 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.App .input_field input:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.App .input_field button {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  font-variant: border;
+  text-align: center;
+  background-color: rgb(55, 113, 223);
+  color: rgb(255, 255, 255);
+}
+.App .input_field button:hover {
+  background-color: rgb(67, 67, 112);
+  transform: scaleX(1.1);
+  transition: 0.3s;
+}
+.temp {
+  margin-top: 40px;
+  display: inline-block;
+  background-color: rgb(213, 213, 221);
+  padding: 25px;
+  border-radius: 8px;
+  width: 30%;
+  color: rgba(62, 12, 112, 0.938);
+}
+
+.location {
+  padding: 15px;
+  display: inline-block;
+  background-color: rgb(213, 213, 221);
+  border-radius: 7px;
+  width: 35%;
+  color: rgba(51, 28, 73, 0.822);
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.data {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("https://www.myjewishlearning.com/wp-content/uploads/2008/05/rain-israel-1597x900.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.local {
+  display: none;
+}
+.lastUpdate {
+  padding: 10px;
+  background-color: rgb(212, 170, 90);
+  color: red;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 9px;
+}
+.data--sunny {
+  background: url("https://see.news/wp-content/uploads/2020/04/%D8%AA%D9%86%D8%B2%D9%8A%D9%84-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.data--winter {
+  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/snow-covered-pine-trees-on-sunset-royalty-free-image-615101076-1541521490.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
