@@ -9,7 +9,7 @@ export default function App() {
   const [city, setcity] = useState("");
   const [loc, setloc] = useState("");
   const [condition, setcondition] = useState("");
-  const key = "36d69c3061774d3c88e43639202410";
+  #const key = "your Api key";
   const handle = () => {
     fetch(`https://api.weatherapi.com/v1/current.json?key=${key}&q=${city}`)
       .then((res) => res.json())
